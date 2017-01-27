@@ -1,0 +1,17 @@
+{
+  "name": "comp308-lab2",
+  "version": "1.0.0",
+  "description": "create express server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "html"
+  ],
+  "author": "Taranjit Kaur",
+  "license": "ISC"
+}
