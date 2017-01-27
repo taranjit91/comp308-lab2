@@ -26,6 +26,8 @@ app.use("*",function(req,res){
   res.sendFile(path + "404.html");
 });
 
+//Serves all the request which includes /images in the url from Images folder
+app.use('/images', express.static(__dirname + '/images'));
 app.listen(3000,function(){
   console.log("Live at Port 3000");
 });
