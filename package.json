@@ -11,8 +11,15 @@
     "node.js",
     "express",
     "html"
-    
   ],
   "author": "Taranjit Kaur",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taranjit91/comp308-lab2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/taranjit91/comp308-lab2/issues"
+  },
+  "homepage": "https://github.com/taranjit91/comp308-lab2#readme"
 }
