@@ -22,10 +22,14 @@ router.get("/contact",function(req,res){
 
 app.use("/",router);
 
-
+/**
+ * Get port from environment and store in Express.
+ */
+let port = process.env.PORT || '3000';
+app.set('port', port);
 
 //Serves all the request which includes /images in the url from Images folder
 app.use('/images', express.static(__dirname + '/images'));
-app.listen(3000,function(){
+app.listen(port,function(){
   console.log("Live at Port 3000");
 });
